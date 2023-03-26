@@ -1,0 +1,15 @@
+section #container{
+    display: flex;
+}
+
+#header{
+    display: flex;
+}
+#main{
+width: 100%;
+   margin: 10px;
+   border: dotted;
+   align-items: space-around;
+   justify-content: center;
+   
+}

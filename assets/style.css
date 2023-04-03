@@ -1,15 +1,49 @@
-section #container{
-    display: flex;
+.container-top {
+  display: flex;
+  justify-content: center;
 }
 
-#header{
-    display: flex;
+#highscores {
+  width: 30%;
 }
-#main{
-width: 100%;
-   margin: 10px;
-   border: dotted;
-   align-items: space-around;
-   justify-content: center;
-   
+
+#timer {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  align-items: top;
+}
+#timer {
+  justify-content: flex end;
+}
+
+#heading1 {
+  border: solid;
+  display: none;
+  margin: 10px;
+  padding: 10px;
+}
+.list-group{
+  margin: 10px;
+}
+
+
+#main {
+  font-family:'Courier New', Courier, monospace;
+  font-size:larger;
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  border: dotted;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  justify-content: center;
+  justify-content: flex-end;
+}
+
+.hide {
+  display: none;
 }
